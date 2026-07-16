@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">SegMax | Pulverização Agrícola de Precisão</title>
+<meta name="description" content="Pulverização agrícola via drone com precisão, economia e tecnologia de ponta para sua lavoura.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#" id="whatsappFloat" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+    <path d="M16.001 3C9.096 3 3.5 8.596 3.5 15.5c0 2.42.69 4.68 1.885 6.6L3 29l7.09-2.348A12.44 12.44 0 0 0 16 28.5C22.905 28.5 28.5 22.905 28.5 16 28.5 9.096 22.905 3 16.001 3zm0 22.7c-2.06 0-4.03-.57-5.73-1.65l-.41-.25-4.2 1.39 1.41-4.09-.27-.42a10.18 10.18 0 0 1-1.6-5.5c0-5.65 4.6-10.25 10.25-10.25S26.25 9.85 26.25 15.5 20.65 25.7 16 25.7zm5.63-7.63c-.31-.155-1.83-.9-2.11-1-.28-.1-.49-.155-.69.155-.2.31-.79 1-.97 1.2-.18.2-.36.23-.67.08-.31-.155-1.3-.48-2.48-1.53-.92-.82-1.54-1.83-1.72-2.14-.18-.31-.02-.475.135-.63.14-.14.31-.36.46-.54.155-.18.2-.31.31-.51.1-.2.05-.38-.025-.54-.08-.155-.69-1.66-.945-2.28-.25-.6-.5-.52-.69-.53-.18-.01-.38-.01-.58-.01-.2 0-.53.075-.8.38-.28.31-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.155.2 2.115 3.23 5.13 4.53.715.31 1.275.49 1.71.63.72.23 1.37.2 1.885.12.575-.085 1.83-.75 2.09-1.47.26-.72.26-1.34.18-1.47-.075-.13-.28-.2-.59-.35z"/>
+  </svg>
+</a>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo" id="logoText">Segmax <span>Drones</span></a>
+
+    <nav class="nav" id="mainNav">
+      <ul class="nav__list">
+        <li><a href="#inicio" class="nav__link">Início</a></li>
+        <li><a href="#sobre" class="nav__link">A Empresa</a></li>
+        <li><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li><a href="#beneficios" class="nav__link">Benefícios</a></li>
+        <li><a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+      <a href="#" id="navWhatsapp" class="btn btn--amber btn--sm" target="_blank" rel="noopener">Falar com especialista</a>
+    </nav>
+
+    <button class="headers" id="headers" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+  <div class="hero__bg" id="heroBg">
+    <video id="heroVideo" class="hero__video" autoplay muted loop playsinline hidden></video>
+  </div>
+  <div class="hero__overlay"></div>
+
+  <!--
+  <div class="hud" aria-hidden="true">
+    <span class="hud__corner hud__corner--tl"></span>
+    <span class="hud__corner hud__corner--tr"></span>
+    <span class="hud__corner hud__corner--bl"></span>
+    <span class="hud__corner hud__corner--br"></span>
+    <span class="hud__readout hud__readout--top">PULVERIZAÇÃO ATIVA</span>
+    <span class="hud__readout hud__readout--bottom" id="hudLocation">TALHÃO A-04 &nbsp;·&nbsp; COBERTURA 100%</span>
+  </div> -->
+
+  <div class="container hero__content reveal">
+    <p class="eyebrow">Agricultura de precisão via drone</p>
+    <h1 class="hero__title">Sua lavoura vista <br> de cima, cuidada <br> com precisão.</h1>
+    <p class="hero__subtitle">Pulverização de defensivos, biológicos e fertilizantes com tecnologia de ponta, mais economia de água e zero perdas por amassamento.</p>
+    <div class="hero__actions">
+      <a href="#contato" class="btn btn--amber">Solicitar orçamento</a>
+      <a href="#servicos" class="btn btn--outline">Ver serviços</a>
+    </div>
+  </div>
+
+
+    <span></span>
+  </a>
+</section>
+
+
+<section class="stats">
+  <div class="container stats__grid" id="statsGrid">
+
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="container sobre__grid">
+
+    <div class="sobre__foto-wrap reveal">
+      <img src="resource/agro.avif" id="sobreFoto" alt="Foto do dono da SegMax" class="sobre__foto" onerror="this.style.display='none'">
+      <div class="sobre__foto-placeholder">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+      </div>
+      <div class="sobre__foto-degrade" aria-hidden="true"></div>
+    </div>
+
+    <div class="sobre__texto reveal">
+      <p class="eyebrow">Quem somos</p>
+      <h2 class="section-title">Tecnologia no campo, resultado na colheita.</h2>
+      <p class="sobre__paragrafo">
+        A <strong id="sobreNomeEmpresa">SegMax Drones</strong> é especializada em pulverização agrícola
+        aérea, oferecendo soluções completas para produtores que buscam mais eficiência, precisão e
+        redução de custos em cada aplicação.
+      </p>
+      <p class="sobre__paragrafo">
+        Com equipamentos de última geração e uma equipe de pilotos certificados, cobrimos grandes áreas
+        em pouco tempo, com aplicação uniforme e sem o amassamento causado por máquinas terrestres.
+      </p>
+
+      <ul class="sobre__checklist">
+        <li><span class="check">✓</span> Pulverização de defensivos, biológicos e domissanitários</li>
+        <li><span class="check">✓</span> Dispersão de sementes e fertilizantes sólidos</li>
+        <li><span class="check">✓</span> Mapeamento e análise de talhões</li>
+      </ul>
+
+      <a href="#contato" class="btn btn--dark">Conheça nossa operação</a>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="servicos" id="servicos">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Soluções</p>
+    <h2 class="section-title section-title--center">O que fazemos pela sua lavoura</h2>
+
+    <div class="servicos__grid">
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v6M12 16v6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2M2 12h6M16 12h6M4.9 19.1l4.2-4.2M14.9 9.1l4.2-4.2"/></svg>
+        </div>
+        <h3>Pulverização via drone</h3>
+        <p>Aplicação de defensivos com altíssima precisão, reduzindo desperdício e exposição do operador aos produtos químicos.</p>
+      </article>
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+        </div>
+        <h3>Dispersão de sementes e fertilizantes</h3>
+        <p>Semeadura aérea e adubação com distribuição uniforme, ideal para áreas de difícil acesso ou terrenos irregulares.</p>
+      </article>
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l18-9-9 18-2-7-7-2z"/></svg>
+        </div>
+        <h3>Mapeamento aéreo</h3>
+        <p>Levantamento e análise de talhões para planejar aplicações com máxima eficiência e identificar áreas críticas.</p>
+      </article>
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4M12 3l8 4v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V7l8-4z"/></svg>
+        </div>
+        <h3>Licenciamento e regularização</h3>
+        <p>Suporte completo com a documentação exigida pelos órgãos reguladores para operação segura e dentro da lei.</p>
+      </article>
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10M18 20V4M6 20v-6"/></svg>
+        </div>
+        <h3>Ensaio e pesquisa</h3>
+        <p>Testes de eficácia de produtos e metodologias de aplicação, com relatórios técnicos detalhados.</p>
+      </article>
+
+      <article class="card-servico reveal">
+        <div class="card-servico__icone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z"/></svg>
+        </div>
+        <h3>Educação e treinamento</h3>
+        <p>Cursos para formação de pilotos e capacitação técnica de operadores de drones agrícolas.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="beneficios" id="beneficios">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Por que usar drones</p>
+    <h2 class="section-title section-title--center">Benefícios da pulverização aérea</h2>
+
+    <div class="beneficios__grid">
+
+      <div class="card-beneficio reveal">
+        <h3>Maior alcance</h3>
+        <p>Atinge áreas de difícil acesso, terrenos irregulares e úmidos com facilidade e precisão.</p>
+      </div>
+
+      <div class="card-beneficio reveal">
+        <h3>Segurança para o operador</h3>
+        <p>Reduz a exposição direta e prolongada a defensivos, protegendo a saúde da equipe em campo.</p>
+      </div>
+
+      <div class="card-beneficio reveal">
+        <h3>Zero amassamento</h3>
+        <p>Sem passagem de máquina sobre a plantação — a lavoura chega intacta até a colheita.</p>
+      </div>
+
+      <div class="card-beneficio reveal">
+        <h3>Economia de água</h3>
+        <p>Redução expressiva no volume de calda utilizado em comparação aos métodos tradicionais.</p>
+      </div>
+
+      <div class="card-beneficio reveal">
+        <h3>Agilidade operacional</h3>
+        <p>Equipe e equipamento cobrindo dezenas de hectares por dia, mesmo em janelas curtas de clima favorável.</p>
+      </div>
+
+      <div class="card-beneficio reveal">
+        <h3>Maior retorno sobre investimento</h3>
+        <p>Menos perdas, menos insumo desperdiçado e mais produtividade por hectare pulverizado.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="hud hud--cta" aria-hidden="true">
+    <span class="hud__corner hud__corner--tl"></span>
+    <span class="hud__corner hud__corner--br"></span>
+  </div>
+  <div class="container cta-banner__content reveal">
+    <h2>Pronto para levar tecnologia à sua próxima safra?</h2>
+    <p>Fale agora com nossa equipe e receba uma proposta sob medida para a sua área.</p>
+    <a href="#" id="ctaWhatsapp" class="btn btn--amber" target="_blank" rel="noopener">Falar no WhatsApp agora</a>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="container contato__grid">
+
+    <div class="contato__info reveal">
+      <p class="eyebrow">Fale com a gente</p>
+      <h2 class="section-title">Vamos planejar sua próxima aplicação</h2>
+      <p class="contato__texto">Preencha o formulário ou entre em contato direto pelos canais abaixo. Nossa equipe retorna o mais breve possível.</p>
+
+      <ul class="contato__lista">
+        <li>
+          <span class="contato__icone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <div><strong>WhatsApp</strong><span id="contatoWhatsappTexto">(00) 00000-0000</span></div>
+        </li>
+        <li>
+          <span class="contato__icone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+          </span>
+          <div><strong>E-mail</strong><span id="contatoEmail">contato@segmax.com.br</span></div>
+        </li>
+        <li>
+          <span class="contato__icone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <div><strong>Endereço</strong><span id="contatoEndereco">Sua cidade - UF</span></div>
+        </li>
+      </ul>
+
+      <div class="contato__social" id="contatoSocial">
+      </div>
+    </div>
+
+    <form class="contato__form reveal" id="contatoForm">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre sua área e o que precisa"></textarea>
+      </div>
+      <button type="submit" class="btn btn--amber btn--full">Enviar mensagem</button>
+      <p class="form-msg" id="formMsg" role="status"></p>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container footer__grid">
+
+    <div class="footer__col">
+      <a href="#inicio" class="logo logo--footer" id="footerLogo">SegMax <span>Drones</span></a>
+      <p id="footerSlogan">Precisão que sobrevoa a sua lavoura.</p>
+      <div class="contato__social" id="footerSocial"></div>
+    </div>
+
+    <div class="footer__col">
+      <h4>A Empresa</h4>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contato</h4>
+      <ul>
+        <li id="footerWhatsappTexto">(79) 9 8825-5146</li>
+        <li id="footerEmailTexto">contato@segmaxdrones.com.br</li>
+        <li id="footerEnderecoTexto">Aracaju - SE</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="container footer__bottom">
+    <p id="footerCopyright">© 2026 SegMax. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
