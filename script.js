@@ -12,7 +12,7 @@ const SITE_CONFIG = {
     whatsappDisplay: "(79) 98825-5146",
     whatsappMensagem: "Olá! Gostaria de saber mais sobre os serviços de pulverização da SegMax Drones.",
     email: "contato@segmaxdrones.com.br",
-    endereco: "Aracaju - SE",
+    endereco: "Carira - SE",
     instagram: "https://www.instagram.com/segmax.drone.solutions/",
   },
 
