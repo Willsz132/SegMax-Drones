@@ -192,7 +192,7 @@ function configurarFormularioContato() {
 
     msg.textContent = "Perfeito! Abrindo o WhatsApp para finalizar o contato...";
     msg.style.color = "";
-
+    console.log(url);
     window.open(url, "_blank");
     form.reset();
   });
