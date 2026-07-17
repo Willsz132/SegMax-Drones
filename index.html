@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -50,6 +50,15 @@
   </div>
   <div class="hero__overlay"></div>
 
+  <!--
+  <div class="hud" aria-hidden="true">
+    <span class="hud__corner hud__corner--tl"></span>
+    <span class="hud__corner hud__corner--tr"></span>
+    <span class="hud__corner hud__corner--bl"></span>
+    <span class="hud__corner hud__corner--br"></span>
+    <span class="hud__readout hud__readout--top">PULVERIZAÇÃO ATIVA</span>
+    <span class="hud__readout hud__readout--bottom" id="hudLocation">TALHÃO A-04 &nbsp;·&nbsp; COBERTURA 100%</span>
+  </div> -->
 
   <div class="container hero__content reveal">
     <p class="eyebrow">Agricultura de precisão via drone</p>
@@ -243,12 +252,26 @@
           </span>
           <div><strong>E-mail</strong><span id="contatoEmail">contato@segmax.com.br</span></div>
         </li>
-        <li>
-          <span class="contato__icone">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </span>
-          <div><strong>Endereço</strong><span id="contatoEndereco">Sua cidade - UF</span></div>
-        </li>
+<li>
+  <a
+    href="https://maps.app.goo.gl/3FcjMtTsTH2Ckw2BA"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contato__link"
+  >
+    <span class="contato__icone">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </svg>
+    </span>
+
+    <div>
+      <strong>Endereço</strong>
+      <span id="contatoEndereco">Sua cidade - UF</span>
+    </div>
+  </a>
+</li>
       </ul>
 
       <div class="contato__social" id="contatoSocial">
