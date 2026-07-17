@@ -445,7 +445,13 @@ section { padding: 96px 0; }
   transition: transform var(--transicao);
 }
 .whatsapp-float:hover { transform: scale(1.08); }
-
+.contato__link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
 
 @media (max-width: 1024px) {
   .sobre__grid { grid-template-columns: 1fr; gap: 48px; }
