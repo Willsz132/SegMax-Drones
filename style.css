@@ -1,11 +1,3 @@
-/* ==========================================================================
-   AGROVOO DRONES — FOLHA DE ESTILOS
-   ==========================================================================
-   Para personalizar rapidamente, edite as variáveis do bloco :root abaixo.
-   Todo o resto do arquivo usa essas variáveis, então trocar uma cor aqui
-   atualiza o site inteiro.
-   ========================================================================== */
-
 :root {
 
   --cor-fundo-escuro: #131F17;    
@@ -246,7 +238,6 @@ section { padding: 96px 0; }
 
 .hud--cta { inset: 20px; }
 
-/* ============================== ESTATÍSTICAS ============================== */
 .stats { background: var(--cor-fundo-escuro-2); padding: 56px 0; }
 .stats__grid {
   display: grid;
