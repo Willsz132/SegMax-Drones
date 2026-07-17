@@ -61,12 +61,8 @@ function aplicarConfiguracao() {
 
   document.getElementById("contatoWhatsappTexto").textContent = contato.whatsappDisplay;
   document.getElementById("footerWhatsappTexto").textContent = contato.whatsappDisplay;
-
-  // E-mail
   document.getElementById("contatoEmail").textContent = contato.email;
   document.getElementById("footerEmailTexto").textContent = contato.email;
-
-  // Endereço
   document.getElementById("contatoEndereco").textContent = contato.endereco;
   document.getElementById("footerEnderecoTexto").textContent = contato.endereco;
 
@@ -172,11 +168,7 @@ function configurarRevelacaoAoRolar() {
   elementos.forEach(el => observer.observe(el));
 }
 
-/* ---------- Formulário de contato ----------
-   Este formulário funciona apenas no front-end (sem servidor próprio).
-   Ao enviar, ele abre o WhatsApp já com a mensagem preenchida com os
-   dados digitados. Se preferir integrar com e-mail (ex: Formspree,
-   EmailJS) ou um backend próprio, troque a função enviarFormulario(). */
+
 function configurarFormularioContato() {
   const form = document.getElementById("contatoForm");
   const msg = document.getElementById("formMsg");
